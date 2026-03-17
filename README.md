@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0ea5e9&height=200&section=header&text=INSIGHTDRIVE&fontSize=70&fontAlignY=35&animation=twinkling" />
+  <img src="https://capsule-render.vercel.app/api?type=wave&color=0ea5e9&height=200&section=header&text=INSIGHTDRIVE&fontSize=70&fontAlignY=35" />
 
   <h2>🌟 Real-time Ride Feedback Intelligence for Safer Fleet Operations</h2>
 
@@ -162,5 +162,5 @@ We're constantly evolving! Here's what's brewing:
 <div align="center">
   <h3>Ready to take the wheel?</h3>
   <p>Star ⭐ this repository and start building better fleet experiences with InsightDrive!</p>
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0ea5e9&height=100&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=wave&color=0ea5e9&height=100&section=footer" />
 </div>

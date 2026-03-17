@@ -8,10 +8,16 @@ const generateRideCode = () => {
 
 const generateSampleRide = async (req, res) => {
   try {
-    const drivers = await Driver.find({}).limit(200);
+    let drivers = await Driver.find({}).limit(200);
 
     if (!drivers.length) {
-      return res.status(400).json({ message: 'No drivers available. Please add drivers first.' });
+      const defaultDrivers = [
+        { name: 'John Doe', vehicleNumber: 'ABC-1234' },
+        { name: 'Jane Smith', vehicleNumber: 'XYZ-9876' },
+        { name: 'Michael Johnson', vehicleNumber: 'LMN-4567' }
+      ];
+      await Driver.insertMany(defaultDrivers);
+      drivers = await Driver.find({}).limit(200);
     }
 
     const randomIndex = Math.floor(Math.random() * drivers.length);

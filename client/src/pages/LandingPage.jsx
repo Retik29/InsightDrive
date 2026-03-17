@@ -1,8 +1,15 @@
 import { Link } from "react-router-dom";
+import { useFeedback } from "../context/FeedbackContext.jsx";
 
 const GITHUB_URL = "https://github.com/Retik29/InsightDrive";
 
 const LandingPage = () => {
+  const { user } = useFeedback();
+  
+  const platformLink = user 
+    ? (user.role === 'admin' ? '/admin' : '/dashboard') 
+    : '/login';
+
   return (
     <div className="min-h-screen bg-slate-50 font-sans text-slate-900">
       <section className="relative overflow-hidden bg-white py-16 md:py-28">
@@ -16,7 +23,7 @@ const LandingPage = () => {
           </p>
 
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <Link to="/login" className="w-full rounded-lg bg-sky-600 px-8 py-4 text-lg font-bold text-white shadow-lg shadow-sky-200 hover:bg-sky-700 sm:w-auto transition-transform hover:-translate-y-1">
+            <Link to={platformLink} className="w-full rounded-lg bg-sky-600 px-8 py-4 text-lg font-bold text-white shadow-lg shadow-sky-200 hover:bg-sky-700 sm:w-auto transition-transform hover:-translate-y-1">
               Launch Platform
             </Link>
             <a href={GITHUB_URL} target="_blank" rel="noreferrer" className="flex items-center gap-2 px-6 py-4 font-semibold text-slate-700 hover:text-sky-600">

@@ -1,6 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=wave&color=0ea5e9&height=200&section=header&text=INSIGHTDRIVE&fontSize=70&fontAlignY=35" />
-
+  <h1>InsightDrive</h1>
   <h2>🌟 Real-time Ride Feedback Intelligence for Safer Fleet Operations</h2>
 
   <p align="center">

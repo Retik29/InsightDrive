@@ -11,9 +11,9 @@
   </p>
 
   <p align="center">
-    <img alt="last-commit" src="https://img.shields.io/github/last-commit/Utkarshsingh4147/InsightDrive?style=for-the-badge&logo=git&logoColor=white&color=0ea5e9">
-    <img alt="repo-top-language" src="https://img.shields.io/github/languages/top/Utkarshsingh4147/InsightDrive?style=for-the-badge&color=0ea5e9">
-    <img alt="repo-language-count" src="https://img.shields.io/github/languages/count/Utkarshsingh4147/InsightDrive?style=for-the-badge&color=0ea5e9">
+    <img alt="last-commit" src="https://img.shields.io/github/last-commit/Retik29/InsightDrive?style=for-the-badge&logo=git&logoColor=white&color=0ea5e9">
+    <img alt="repo-top-language" src="https://img.shields.io/github/languages/top/Retik29/InsightDrive?style=for-the-badge&color=0ea5e9">
+    <img alt="repo-language-count" src="https://img.shields.io/github/languages/count/Retik29/InsightDrive?style=for-the-badge&color=0ea5e9">
   </p>
 
   <h3>🚀 Built with the Power of MERN 🚀</h3>
@@ -80,13 +80,7 @@ Ready to harness InsightDrive on your local machine? Let's get things rolling!
 
 ### ⚙️ Installation & Setup
 
-1️⃣ **Clone the brilliance:**
-```bash
-git clone https://github.com/Utkarshsingh4147/InsightDrive.git
-cd InsightDrive
-```
-
-2️⃣ **Environment Setup:**
+1️⃣ **Environment Setup:**
 We've streamlined the local `.env` setup. Check your `client` and `server` folders, they are pre-configured locally now!
 
 **`server/.env` example:**
@@ -110,7 +104,7 @@ VITE_API_BASE_URL=http://localhost:5000/api
 VITE_SOCKET_URL=http://localhost:5000
 ```
 
-3️⃣ **Dependency Installation:**
+2️⃣ **Dependency Installation:**
 ```bash
 # Terminal 1 - Fuel the Backend
 cd server
